@@ -1,0 +1,28 @@
+title: bangla.core
+name: bongo ভঙ্গ  ( মানবতাবাদী )
+description: |
+  ক খ গ ঘ
+  Stereotype / Shitpost / Bengali /(unfunny)
+  @mohunbagansg
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+header_img: /media/bangla_core.jpg
+ig_username: bangla.core
+ig_category: Therapist
+ig_website: null
+
+footer_website: bongoarchive.org
+
+# Build settings
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: diptanilsaha/jekyll-theme-instagram
+
+theme_config:
+  archive: true
+
+include:
+  - media
